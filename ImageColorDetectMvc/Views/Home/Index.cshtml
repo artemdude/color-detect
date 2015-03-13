@@ -1,0 +1,20 @@
+﻿@{
+    ViewBag.Title = "Image Color Detect";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Image Color Detect</h1>
+Add image url add click "Go". It can take a little time. Be patient.
+
+@using (Html.BeginForm("Index","Home", FormMethod.Get))
+{
+    <input id="imgUrl" name="imgUrl" type="text" /><input id="goBtn" type="submit" value="Go" />
+    <div style=" color:#ccc; font-size:0.9em;">
+    example: http://dribbble.com/system/users/28212/screenshots/421638/jsos.png?1328971781
+    </div>
+}
+
+
+<img id="img" src="/Home/GetImage/" />
+
+

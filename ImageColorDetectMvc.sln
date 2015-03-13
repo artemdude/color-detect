@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageColorDetectMvc", "ImageColorDetectMvc\ImageColorDetectMvc.csproj", "{E6C9F4E7-9FA2-4019-8BD9-D8261B82198A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6C9F4E7-9FA2-4019-8BD9-D8261B82198A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6C9F4E7-9FA2-4019-8BD9-D8261B82198A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6C9F4E7-9FA2-4019-8BD9-D8261B82198A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6C9F4E7-9FA2-4019-8BD9-D8261B82198A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
